@@ -8,7 +8,7 @@
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
-
+  <link rel="stylesheet" href="discordInvite.css"/>
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
@@ -40,7 +40,7 @@
           <li><a href="./index.html" title="">01 : Home</a></li>
          
          
-          <li><a href="./contact.html" title="">04 : Contact</a></li>
+          <li><a href="./contact.html" title="">02: Contact</a></li>
           
         </ul>
 
@@ -50,31 +50,11 @@
   </nav>
 </header>
 
-<div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">03 : Contact me</h1>
-          </div>
-          
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-               <form action="" class="reveal-content">
-                  <div class="row">
-                    <div class="col-md-7">
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                      </div>
-                      <div class="form-group">
-                        <textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-default btn-lg">Send</button>
-                    </div>
-                    <div class="col-md-5 address-container">
+<div class= "mobile-hide">
+
+<img src="https://pbs.twimg.com/profile_banners/858791585244471296/1560035697/1080x360" class="responsive">
+<div id="discordInviteBox"></div> </div>                  <div class="col-md-5 address-container">
+    
                       <ul class="list-unstyled">
                         <li>
                           <span class="fa-icon">
@@ -106,6 +86,7 @@
                       <a href="https://www.reddit.com/user/proc0der" title="" class="fa-icon">
                         <i class="fa fa-reddit"></i>
                       </a>
+                      
 
                     </div>
                   </div>
@@ -118,7 +99,7 @@
       </div>
     </div>
   </div>
-
+  
 
 <footer class="footer-container text-center">
   <div class="container">
@@ -150,5 +131,29 @@
 </script>
 
  <script type="text/javascript" src="./main.70a66962.js"></script></body>
+ <style>
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  @media screen and (min-width: 600px) {
 
+/* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+.mobile-hide {
+  display: none !important;
+}
+
+}
+  </style>
+ 
+  <script src="discordInvite.js"></script>
+  <script>
+    discordInvite.init({
+    inviteCode: 'YaFX6Qr8',
+    title: 'procoder',
+  });
+  discordInvite.render();
+  </script>
+  
 </html>

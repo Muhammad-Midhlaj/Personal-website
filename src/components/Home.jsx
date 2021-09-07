@@ -19,7 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Muhammad Midhlaj</h3>
             <p className="job">
-              Web Devaloper|Tech enthusiast|Ethical Hacker| Game server Devaloper
+              Web developer|Tech enthusiast|Ethical Hacker| Game server developer
             </p>
             {/* END JOB */}
             <Social />

@@ -24,7 +24,7 @@ const About = () => {
             <div className="left">
               <p>
                 Hello, I am a creative and enthusiast Programmer I do
-                web devalopment ,Gameserver Devalopment and cyber security consultation .
+                web development ,Gameserver Development and cyber security consultation .
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">

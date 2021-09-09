@@ -7,16 +7,7 @@ const Preview = () => {
     <div className="tokyo_tm_all_wrap">
       <div className="tokyo_tm_intro">
         <div className="tokyo_tm_intro_fixed_price">
-          <span className="anim"></span>
-          <span className="anim"></span>
-          <span className="anim"></span>
-          <a
-            href="https://themeforest.net/item/tokyo-react-personal-portfolio-template/32322644?s_rank=1"
-            target="_blank"
-            className="pricing-info anim"
-          >
-            -78%
-          </a>
+          
         </div>
         {/* END TOKYO INTRO FIXED PRICE */}
 
@@ -36,7 +27,7 @@ const Preview = () => {
             <Link to="/home-light" target="_blank">
               <div className="desc">
                 <img src="assets/img/intro/light.png" alt="" />
-                <h3 className="title">Light Demo</h3>
+                <h3 className="title">Light </h3>
               </div>
             </Link>
           </div>
@@ -45,7 +36,7 @@ const Preview = () => {
             <Link to="/home-dark" target="_blank">
               <div className="desc">
                 <img src="assets/img/intro/dark.png" alt="" />
-                <h3 className="title">Dark Demo</h3>
+                <h3 className="title">Dark </h3>
               </div>
             </Link>
           </div>

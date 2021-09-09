@@ -60,7 +60,7 @@ const About = () => {
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">+91 9020323000</a>
+                    <a href="tel:+919020323000">+91 9020323000</a>
                   </p>
                 </li>
                 <li>
@@ -96,6 +96,7 @@ const About = () => {
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* END POPUP CLOSE BUTTON */}
+          
           <div className="box-inner">
             <div className="description_wrap scrollable">
               <div className="my_box">
@@ -106,14 +107,14 @@ const About = () => {
                   {/* END ABOUT TITLE */}
 
                   <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
+                    <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">HTML</span>
-                        <span className="number">95%</span>
+                        <span className="label">Lua</span>
+                        <span className="number">85%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                          <div className="bar_in" style={{width: 95 + '%'}}></div>
+                          <div className="bar_in" style={{width: 85 + '%'}}></div>
                         </div>
                       </div>
                     </div>
@@ -132,7 +133,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Lua</span>
+                        <span className="label">HTML</span>
                         <span className="number">90%</span>
                       </span>
                       <div className="background">

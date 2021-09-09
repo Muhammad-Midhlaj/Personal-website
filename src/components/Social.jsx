@@ -6,15 +6,28 @@ const SocialShare = [
     link: "https://www.instagram.com/midhlaj.4/",
   },
   {
-    iconName: "facebook",
-    link: "https://www.facebook.com/midlaj.zxz",
+    iconName: "github2",
+    link: "https://github.com/procoder4",
   },
-  { iconName: "twitter", link: "https://twitter.com/MidlajZxz" },
+  { iconName: "twitter", 
+  link: "https://twitter.com/MidlajZxz" },
   
  
   {
-    iconName: "tik-tok",
-    link: "https://www.tiktok.com/@muhd_midlaj?lang=en",
+    iconName: "Discord",
+    link: "https://discord.gg/hf2vZrqvUC",
+  },
+  {
+    iconName: "reddit",
+    link: "https://www.reddit.com/user/proc0der",
+  },
+  {
+    iconName: "linkedin",
+    link: "https://www.linkedin.com/in/muhammad-midlaj-671b3a205/",
+  },
+  {
+    iconName: "whatsapp2",
+    link: "https://wa.me/+919020323000",
   },
 ];
 const Social = () => {

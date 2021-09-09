@@ -1,14 +1,20 @@
 import React from "react";
-import { useState } from "react";
-import ReactMapGL from "react-map-gl";
+//import { useState } from "react";
+//import ReactMapGL from "react-map-gl";
 import emailjs from "emailjs-com";
+//import InstagramEmbed from 'react-instagram-embed';
+//import DiscordInvite from "react-discord-invite";
 
-const Contact = () => {
-  const [viewport, setViewport] = useState({
-    latitude: 11.662555,
-    longitude: 76.310712,
-    zoom: 8,
-  });
+//const Contact = () => {
+  //const [viewport, setViewport] = useState({
+    //latitude: 11.662555,
+    //longitude: 76.310712,
+    //zoom: 8,
+  //});
+
+
+  function Contact() {
+    
 
   function sendEmail(e) {
     e.preventDefault();
@@ -37,23 +43,28 @@ const Contact = () => {
           <div className="title_flex">
             <div className="left">
               <span>Contact</span>
-              <h3>Get in Touch</h3>
+              <h3>Join My Discord Server</h3>
             </div>
           </div>
         </div>
         {/* END TITLE */}
 
-        <div className="map_wrap">
+       {/*  <div className="map_wrap">
           <div className="map">
-            <ReactMapGL
+            
+           <ReactMapGL
               mapStyle={"mapbox://style/mapbox/dark-v9"}
-              mapboxApiAccessToken="pk.eyJ1IjoiYmF5YXppZGgiLCJhIjoiY2tvemdwc3ByMDg1YzJubzQxcDR0cDR3dyJ9.s1zXEb5OPqgBDcmupj3GBA"
+              mapboxApiAccessToken="pk.eyJ1IjoicHJvY29kZXI0IiwiYSI6ImNrdGFuMWVtMzFoNWIyeHBoZ3BnbXJ6eWoifQ.BIgSZcNcXYx26mn9sAY1Cw"
               {...viewport}
-              onViewportChange={(nextViewport) => setViewport(nextViewport)}
+              onViewportChange={nextViewport => setViewport(nextViewport)}
             />
           </div>
         </div>
         {/* MENU WRAP */}
+        
+          
+        <iframe title="Join my discord Server"src="https://discord.com/widget?id=695742873588465734&theme=dark" width="800" height="250" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        
 
         <div className="fields">
           <form className="contact_form" onSubmit={sendEmail}>

@@ -19,7 +19,7 @@ const About = () => {
         </div>
         {/* END ABOUT IMAGE */}
         <div className="description">
-          <h3 className="name">Muhammad Midhlaj &amp; ᑭᖇOᑕOᗪΞᖇ</h3>
+          <h3 className="name">Muhammad Midhlaj &amp;</h3>
           <div className="description_inner">
             <div className="left">
               <p>

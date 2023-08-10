@@ -14,7 +14,7 @@ const NotFound = () => {
           {/* END LOGO */}
           <div className="copyright">
             <p>
-              &copy; 2021 & Created by
+              &copy; 2023 & Created by
               <a
                 href="https://discord.gg/ZKT3xqQGs3"
                 target="_blank"
@@ -52,12 +52,12 @@ const NotFound = () => {
       <footer className="footer-wrapper">
         <div className="copyright">
           <p>
-            &copy; 2021 & Created by
+            &copy; 2023 & Created by
             <a
               href="https://discord.gg/ZKT3xqQGs3"
               target="_blank"
               rel="noreferrer"
-            >ᑭᖇOᑕOᗪΞᖇ
+            >midhlaj
               
             </a>
           </p>

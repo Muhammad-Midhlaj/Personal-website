@@ -72,11 +72,11 @@ const HomeLight = () => {
                 <p>
                   &copy; {new Date().getFullYear()} & Created by
                   <a
-                    href="https://discord.gg/ZKT3xqQGs3"
+                    href="https://www.linkedin.com/in/muhammad-midhlaj/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    ᑭᖇOᑕOᗪΞᖇ#5518
+                    Myself 
                   </a>
                 </p>
               </div>

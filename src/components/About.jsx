@@ -23,8 +23,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative and enthusiast Programmer I do
-                web development ,Gameserver Development and cyber security consultation .
+              I am a passionate technology enthusiast and cybersecurity expert with a deep understanding of web application security. I have extensive experience in web development, hacking labs, capture the flag (CTF), and various security tools. I am proficient in both Linux and Windows operating systems, and I can exploit known vulnerabilities. .
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -36,16 +35,7 @@ const About = () => {
             {/* END LEFT */}
             <div className="right">
               <ul>
-                <li>
-                  <p>
-                    <span>Birthday:</span>07.02.2001
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Age:</span>20
-                  </p>
-                </li>
+            
                 <li>
                   <p>
                     <span>Address:</span>sulthan bathery, Kerala, India
@@ -54,7 +44,7 @@ const About = () => {
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">procoder.4tech@gmail.com</a>
+                    <a href="mailto:mail@gmail.com">mail@midhlaj.me</a>
                   </p>
                 </li>
                 <li>
@@ -102,14 +92,14 @@ const About = () => {
               <div className="my_box">
                 <div className="left">
                   <div className="about_title">
-                    <h3>Programming Skills</h3>
+                    <h3> Skills</h3>
                   </div>
                   {/* END ABOUT TITLE */}
 
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">Lua</span>
+                        <span className="label">Web Application</span>
                         <span className="number">85%</span>
                       </span>
                       <div className="background">
@@ -121,7 +111,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">Java script</span>
+                        <span className="label">system security</span>
                         <span className="number">80%</span>
                       </span>
                       <div className="background">
@@ -133,7 +123,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">HTML</span>
+                        <span className="label">OSINT</span>
                         <span className="number">90%</span>
                       </span>
                       <div className="background">
@@ -180,11 +170,11 @@ const About = () => {
                     <div className="progress_inner" data-value="85">
                       <span>
                         <span className="label">Tamil</span>
-                        <span className="number">85%</span>
+                        <span className="number">40%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 85 + '%'}}></div>
+                        <div className="bar_in" style={{width: 40 + '%'}}></div>
                         </div>
                       </div>
                     </div>
@@ -208,7 +198,7 @@ const About = () => {
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>5+</h3>
+                      <h3>15+</h3>
                       <span>Happy Clients</span>
                     </div>
                   </li>
